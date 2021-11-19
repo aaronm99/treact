@@ -89,6 +89,9 @@ input::placeholder {
   color: #6415ff;
 }
 
+.unavailable {
+  cursor: not-allowed !important;
+}
 /* NAV BAR */
 
 .nav__container {
