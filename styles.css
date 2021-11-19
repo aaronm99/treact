@@ -33,12 +33,15 @@ h2 {
 
 button {
   border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
   position: relative;
   color: #243e6e;
+  cursor: pointer;
 }
 
 input {
@@ -920,9 +923,11 @@ input::placeholder {
   background-color: #e53e3e;
 }
 
-.started__btn {
+.started__btn,
+.contact__btn {
   color: #f7fafc;
   font-weight: 700;
+  font-size: 16px;
 }
 
 .contact__btn--container {
@@ -941,11 +946,6 @@ input::placeholder {
 
 .contact__btn--container:hover .contact__btn {
   color: #6415ff;
-}
-
-.contact__btn {
-  color: #f7fafc;
-  font-weight: 700;
 }
 
 /* FOOTER */
