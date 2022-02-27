@@ -1,7 +1,7 @@
 # treact
 
 ## What is it?
-Created a static webpage using HTML and CSS
+Static webpage created using HTML and CSS best practices.
 
 ## Tech Stack
 - HTML
